@@ -40,6 +40,42 @@ if ($_POST['email_destino'] == "ventas@discorreas.com") {
         }
     }
 
+} else if ($_POST['email_destino'] == "calle8@americanadecorreas.com") {
+    $nombre = $_POST['nombre'];
+    $email = $_POST['email'];
+    $mensaje = $_POST['mensaje'];
+    $para = 'calle8@americanadecorreas.com';
+    $titulo = 'Email desde sitio web Tiendas Industriales';
+    
+    $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
+    
+    if ($_POST['submit']) {
+    if (mail ($para, $titulo, $msjCorreo)) {
+    echo 'El mensaje se ha enviado';
+    header("Location: email_enviado.php");
+    } else {
+    echo 'Falló el envio';
+        }
+    }
+
+} else if ($_POST['email_destino'] == "ladorada@americanadecorreas.com") {
+    $nombre = $_POST['nombre'];
+    $email = $_POST['email'];
+    $mensaje = $_POST['mensaje'];
+    $para = 'ladorada@americanadecorreas.com';
+    $titulo = 'Email desde sitio web Tiendas Industriales';
+    
+    $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
+    
+    if ($_POST['submit']) {
+    if (mail ($para, $titulo, $msjCorreo)) {
+    echo 'El mensaje se ha enviado';
+    header("Location: email_enviado.php");
+    } else {
+    echo 'Falló el envio';
+        }
+    }
+
 } else if ($_POST['email_destino'] == "ventas@correasindustriales.com") {
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];

@@ -10,31 +10,31 @@
     <div class="row align-items-center" style="margin-bottom: 20px;">
         <!-- Botones de las marcas -->
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 center-block ">
-            <a class="linkopacity" href="discorreas.html">
+            <a class="linkopacity" href="discorreas.php">
                 <img src="assets/images/content/logo-discorreas.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="americana.html">
+            <a class="linkopacity" href="americana.php">
                 <img src="assets/images/content/logo-americana.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="correas_ind.html">
+            <a class="linkopacity" href="correas_ind.php">
                 <img src="assets/images/content/logo-correas.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="gates.html">
+            <a class="linkopacity" href="gates.php">
                 <img src="assets/images/content/logo-gates.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="parker.html">
+            <a class="linkopacity" href="parker.php">
                 <img src="assets/images/content/logo-parker.jpg" alt="Logo">
             </a>
         </div>
