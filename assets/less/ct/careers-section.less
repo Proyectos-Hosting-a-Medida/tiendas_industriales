@@ -1,0 +1,271 @@
+.breadcrumb {
+  background-color: transparent;
+  color: @font-color-gray3;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li, a, .active {
+    text-transform: uppercase;
+    color: @font-color-gray3;
+    font-family: @font5;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  a:hover, a:active, a:focus {
+    color: @motive;
+  }
+}
+
+.ct-careersSection {
+  .ct-description:before {
+    display: none;
+    color: black;
+  }
+  .ct-jobDescription, .ct-jobRequirements {
+    h3{
+      line-height: 32px;
+      font-size: 24px;
+      font-family: @font1;
+    }
+    .subtitle {
+      font-family: @font4;
+      line-height: 28px;
+      font-weight: 700;
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: @font4;
+      font-size: 16px;
+      line-height: 26px;
+      padding: 0;
+      margin-top: 10px;
+      color: #666;
+    }
+  }
+
+
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+    li {
+      font-family: @font4;
+      line-height: 26px;
+      font-size: 18px;
+      padding-top: 15px;
+    }
+
+    li:before {
+      content: "•";
+      color: @motive; /* or whatever color you prefer */
+      padding-right: 10px;
+    }
+  }
+  /*  .ct-jobDescription:after{
+      background-color: @color-lightBeige2;
+      width: 9999px;
+      position: absolute;
+      right: -10103px;
+      top: -40px;
+      content: "";
+      display: block;
+      height: 1238px;
+      z-index: -1;
+    }*/
+
+  /*  .ct-jobRequirements:after{
+      background-color: @color-lightBeige;
+      width: 9999px;
+      position: absolute;
+      right: -10006px;
+      top: -49px;
+      content: "";
+      display: block;
+      height: 800px;
+      z-index: -1;
+    }*/
+
+  a.btn {
+    font-size: 14px;
+    padding: 20px 29px;
+    line-height: 9px;
+  }
+
+  .ct-siteMenu {
+    .active-link{
+      color: @motive;
+    }
+    li.active-link:before {
+      content: "•";
+      color: @motive;
+      padding-right: 10px;
+    }
+    margin-left: 45px;
+    margin-top: 20px;
+    a {
+      font-family: @font1;
+      color: #262626;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 15px;
+      text-align: left;
+      text-transform: uppercase;
+      &:focus, &:hover, &:active {
+        color: @motive;
+      }
+    }
+    li:before {
+      content: "•";
+      color: transparent; /* or whatever color you prefer */
+      padding-right: 10px;
+      //display: none;
+    }
+    li:hover::before {
+      color: @motive;
+    }
+    li:hover {
+      a {
+        color: @motive;
+      }
+    }
+  }
+
+  .ct-widget-blogPosts {
+    margin-left: 60px;
+  }
+  @media (max-width: 1200px) {
+    .ct-widget-blogPosts {
+      margin-left: 0;
+    }
+
+    .ct-jobDescription:after, .ct-jobRequirements:after {
+      display: none;
+    }
+  }
+
+  .ct-linkHeader {
+    font-family: @font5;
+    color: @motive;
+    font-size: 12px;
+    i {
+      padding-left: 5px;
+    }
+    &:hover{
+      color: black;
+    }
+  }
+}
+
+.ct-widget-iconInfoBox {
+  img{
+    color: @motive;
+  }
+  .ct-widget-header {
+    font-size: 20px;
+  }
+  margin-left: 60px;
+  font-family: @font4;
+
+  h6 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  ul > li {
+    font-family: @font4;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .ct-widget-header:after{
+    border-bottom: 3px solid @motive;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ct-widget-iconInfoBox{
+    margin-left: 0;
+  }
+}
+
+.ct-servicesSection{
+  padding-right: 10px;
+}
+
+.ct-priceSection--services{
+  padding-right: 90px;
+}
+
+.ct-jobDescription--list{
+  color: @font-color-white;
+  padding: 40px 50px 50px;
+
+  .ct-widget-header:after{
+    border-bottom-color: @motive;
+  }
+  ul{
+    margin-bottom: 0;
+  }
+  ul li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 1.3em;
+  }
+  ul li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    color: @motive;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+}
+.ct-jobDescriptionContainer{
+  margin-right: 30px;
+  .ct-widget-header{
+    color: @font-color-white;
+    // margin-top: 0;
+  }
+}
+
+
+.ct-jobDescription--boxes{
+.ct-jobBox{
+  border-style: solid;
+  border-width: 1px;
+  border-color:  #e6e6e6;
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  //width: 360px;
+  //height: 154px;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  .post-date {
+    font-family: @font4;
+    color:  @font-color-gray;
+    font-size: 10px;
+    font-weight: 400;
+    //line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  h4{
+    font-family: @font1;
+    color:  @font-color-black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 17px;
+  }
+}
+  a.btn-sm{
+    padding: 11px 19px;
+    font-family: @font5;
+    line-height: 1;
+  }
+}

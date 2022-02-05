@@ -1,0 +1,214 @@
+
+
+.form-inicio {
+
+  width: 100%;
+  float: right;
+}
+
+.form-text {
+
+width: 100%; 
+color: #000;
+border:none; 
+-webkit-border-radius:5px; 
+border-radius:5px; 
+height: 30px; 
+margin-bottom: 12px; 
+padding:0 15px; 
+box-sizing:border-box; 
+-webkit-box-sizing:border-box; 
+-moz-box-sizing:border-box; 
+font-size: 0.813em; 
+letter-spacing: 0.05em; 
+transition:all .3s; 
+-webkit-transition:all .3s;
+
+}
+
+.form-area {
+  height: 85px;
+ resize: none;
+ padding: 7px 15px;
+
+}
+
+  .form-text:focus, .form-area:focus {
+
+    opacity:.8;
+  }
+
+
+ .form-inicio > input[type='submit']{appearance:button; -moz-appearance:button; -webkit-appearance:button; float: right; background:#42A933 /* url(../imagenes/bg-arrow-submit.png) no-repeat right 8px top 10px */; color:#fff; font-size: 0.7em; letter-spacing:0.1em; text-transform: uppercase; border:none; webkit-border-radius:5px; border-radius:5px; width:75px; height: 30px; text-align: left; padding-left: 15px; transition:all .3s; -webkit-transition:all .3s;}
+  .form-inicio > input[type='submit']:hover{background-color: #191312;
+  }
+
+  #choice {
+
+width: 100%; 
+color: #000;
+background: #fff;
+border:none; 
+-webkit-border-radius:5px; 
+border-radius:5px; 
+height: 30px; 
+margin-bottom: 12px; 
+padding:0 15px; 
+box-sizing:border-box; 
+-webkit-box-sizing:border-box; 
+-moz-box-sizing:border-box; 
+font-size: 0.813em; 
+letter-spacing: 0.05em; 
+transition:all .3s; 
+-webkit-transition:all .3s;
+}
+
+.empty { color: #999999 !important; }
+
+
+@media screen and (max-width: 510px) {
+  .ti-prin{
+    font-size: 40px;
+  }
+
+  .ti-sen {
+
+    font-size: 25px;
+  }
+
+}
+
+.formulario  {
+
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  background-color: #e4e4e4;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+}
+
+.contacto-derecha  {
+
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  background-color: #e4e4e4;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+}
+
+.formulario h1  {
+
+  padding: 5px;
+  background-color: #efefef;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+}
+
+.formulario-cubridor {
+  padding: 15px 5px 15px;
+  margin: 2px;  
+  background-color: #efefef;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+
+
+/* Required field START */
+
+.required-field-block {
+    position: relative;   
+}
+
+.required-field-block .required-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -0.25em 0.25em 0em;
+    background-color: #E8E8E8;
+    border-color: #E8E8E8;
+    padding: 0.5em 0.8em;
+    color: rgba(0, 0, 0, 0.65);
+    text-transform: uppercase;
+    font-weight: normal;
+    border-radius: 0.325em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: background 0.1s linear;
+    transition: background 0.1s linear;
+    font-size: 75%;
+}
+  
+.required-field-block .required-icon {
+    background-color: transparent;
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    z-index: 10;
+    margin: 0em;
+    width: 30px;
+    height: 30px;
+    padding: 0em;
+    text-align: center;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.required-field-block .required-icon:after {
+    position: absolute;
+    content: "";
+    right: 1px;
+    top: 1px;
+    z-index: -1;
+    width: 0em;
+    height: 0em;
+    border-top: 0em solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 0em solid transparent;
+    border-right-color: inherit;
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+
+.required-field-block .required-icon .text {
+  color: #B80000;
+  font-size: 26px;
+  margin: -3px 0 0 12px;
+}
+/* Required field END */
+
+MAC Address:  00-26-18-53-5F-F1
+IP Address: 190.37.80.79  Dynamic IP
+Subnet Mask:  255.255.224.0  
+Default Gateway:  190.37.64.1 Release  
+DNS Server: 8.8.8.8 , 8.8.4.4

@@ -1,0 +1,171 @@
+.ct-mainSlider {
+  @media (max-width: @screen-xs-max){
+    .slider-header{
+      padding-right: 10px;
+    }
+  }
+
+  h1 {
+    font-family: @font1;
+    color: @font-color-white;
+    font-size: 60px;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    //padding-right: 100px;
+    padding-top: 150px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+  }
+  span {
+    padding: 0 18px;
+    font-family: @font5;
+    color: @font-color-white;
+    text-transform: uppercase;
+  }
+}
+
+.slick-slide{
+  padding-bottom: 20px;
+
+  .btn {
+    margin-bottom: 10px;
+  }
+ &:focus{
+   outline:none;
+ }
+}
+
+.ct-mainSlider .slick-slide {
+  padding-bottom: 0;
+}
+
+.item-inner {
+ // margin-left: 366px;
+}
+
+.slick-arrow {
+  display: block;
+  position: absolute;
+  background-color: @color-lightGray;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  border: none;
+  font-family: FontAwesome;
+  color: @font-color-white;
+  font-weight: 400;
+  font-size: 30px;
+  &:hover, &:active, &:focus{
+    background-color: @motive;
+    outline: none;
+  }
+}
+
+.slick-next {
+  bottom: 2px;
+  left: 55px;
+}
+
+.slick-prev {
+  bottom: 2px;
+  left: 2px;
+}
+
+.ct-mainSlider .slick-next {
+  bottom: 2px;
+  left: 433px;
+}
+
+.ct-mainSlider .slick-prev {
+  bottom: 2px;
+  left: 381px;
+}
+
+.ct-mainSlider .slick-dots {
+  left: 445px;
+}
+
+.slick-dots {
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 69px;
+  list-style: none;
+  margin: 0;
+  font-family: @font5;
+  color: @font-color-white;
+  button {
+    background-color: @color-lightGray;
+    border: none;
+    box-shadow: none;
+    height: 30px;
+    width: 30px;
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      outline: none;
+    }
+  }
+  li {
+    float: left;
+    margin-right: 2px;
+  }
+}
+
+.slick-prev:before {
+  content: "\f104";
+  left: 360px;
+}
+
+.slick-next:before {
+  content: "\f105";
+  left: 390px;
+}
+
+
+li.slick-active{
+  button{
+    background-color: @motive;
+    outline: none;
+  }
+  }
+
+@media (max-width: 1200px) {
+  .item-inner {
+    margin-left: 0;
+    //padding-right: 0;
+  }
+  .ct-mainSlider .slick-next {
+    left: 55px;
+  }
+
+  .ct-mainSlider .slick-prev {
+    left: 2px;
+  }
+
+  .ct-mainSlider .slick-dots {
+    left: 68px
+  }
+
+}
+
+@media (max-width: 480px){
+  .ct-mainSlider{
+    h1{
+      font-size: 46px;
+      padding-top: 40px;
+    }
+    .btn-slider{
+      margin-top: 20px;
+    }
+  }
+}
+
+
+.ct-slick.ct-light-gallery {
+  .item {
+    .item-inner {
+      padding: 5px;
+    }
+  }
+}

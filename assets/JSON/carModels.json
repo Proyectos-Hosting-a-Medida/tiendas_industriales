@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "results": [{
+    "model": "Volkswagen",
+    "submodel": [
+      "Golf",
+      "Polo",
+      "Jetta",
+      "Tiguan",
+      "Touareg"
+    ]
+  },
+    {
+      "model": "Toyota",
+      "submodel": [
+        "Yaris",
+        "Avensis",
+        "Auris Hybrid",
+        "Rav4",
+        "Corolla"
+      ]
+    },
+
+    {
+      "model": "Honda",
+      "submodel": [
+        "Civic",
+        "Jazz",
+        "CR-V",
+        "Accord"
+      ]
+    },
+
+    {
+      "model": "BMW",
+      "submodel": [
+        "X1",
+        "X6",
+        "M2",
+        "M5",
+        "i8"
+      ]
+    },
+
+    {
+      "model": "Mercedes",
+      "submodel": [
+        "CLA",
+        "CLS",
+        "GLA",
+        "GLE",
+        "SL",
+        "AMG GT"
+      ]
+    }
+  ]
+}

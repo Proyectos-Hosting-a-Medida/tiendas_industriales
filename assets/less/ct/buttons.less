@@ -1,0 +1,265 @@
+.btn, button {
+  color: @font-color-white;
+  font-family: @font5;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0;
+  letter-spacing: 1.5px;
+  border: none;
+  &:hover, &:focus, &:active{
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+.btn-group{
+  &:hover, &:focus, &:active{
+    outline: none;
+  }
+}
+
+.btn-search {
+  background-color: @color-darkGrayBackground;
+  border: none;
+  color: @font-color-gray;
+  &:hover, &:focus, &:active {
+    background-color: @color-darkGrayBackground;
+    border: none;
+    outline: none;
+  }
+}
+
+.btn-accent {
+  font-size: 12px;
+  background-color: @accent;
+  padding: 16px 17px;
+  letter-spacing: 0.2px;
+  &:hover, &:focus, &:active {
+    background-color: @button-color-black;
+    color: @font-color-white;
+  }
+}
+
+.btn-white {
+  background-color: transparent;
+  border: 2px solid @font-color-white;
+  padding: 16px;
+  letter-spacing: 0.1px;
+  line-height: 1;
+  &:hover, &:focus, &:active {
+    border: 2px solid @motive;
+    color: @motive;
+  }
+}
+
+.btn-slider--motive {
+  background-color: @motive;
+  border-color: @motive;
+  &:hover, &:focus, &:active {
+    color: @motive;
+    background-color: @font-color-white;
+    border: 2px solid @font-color-white;
+  }
+}
+
+.btn-motive {
+  background-color: transparent;
+  border: 2px solid @motive;
+  color: @motive;
+  padding: 13px 16px;
+  letter-spacing: 0;
+  &:hover, &:focus, &:active {
+    border: 2px solid @button-color-black;
+    color: @button-color-black;
+  }
+}
+
+.btn-black {
+  background-color: transparent;
+  border: 2px solid @font-color-lightBlack;
+  color: @font-color-lightBlack;
+  padding: 13px 16px;
+  letter-spacing: 0;
+  &:hover, &:focus, &:active {
+    border: 2px solid @motive;
+    color: @motive;
+  }
+}
+
+.ct-btnScrollUp {
+  position: fixed;
+  right: 150px;
+  bottom: 0px;
+  background-color: @color-blackButton;
+  font-size: 48px;
+  color: @font-color-gray;
+  height: 72px;
+  width: 73px;
+  text-align: center;
+  opacity: 0;
+  z-index: -1;
+  //visibility: hidden;
+  .ct-m-transition(all, .3s, ease);
+
+  i {
+    line-height: 67px;
+    margin-top: 2px;
+  }
+  &:hover, &:focus, &:active {
+    color: @font-color-white;
+  }
+  @media (max-width: @screen-xs-max) {
+    right: 0;
+    bottom: 0;
+    height: 45px;
+    width: 45px;
+    font-size: 37px;
+    line-height: 45px;
+    i {
+      line-height: 45px;
+      margin-top: -2px;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 1700px){
+    bottom: 72px;
+    right: 0;
+  }
+}
+
+.ct-btnScrollUp.is-active {
+  //visibility: visible;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.btn{
+  padding: 15px 19px;
+  font-family: @font5;
+  line-height: 1;
+  height: auto;
+}
+
+.btn.btn-sm {
+  padding: 8px 12px ;
+  font-size: 12px;
+}
+
+.btn.btn-lg {
+  padding: 18px 25px;
+}
+
+.btn-default {
+  color: #333;
+  border: 2px solid #aaa;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    border-color: #262626;
+    color: #262626;
+    background-color: transparent;
+  }
+}
+
+.btn-success {
+  background-color: transparent;
+  border: 2px solid @btn-success-border;
+  color: @btn-success-bg;
+
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    border-color: #262626;
+    color: #262626;
+    background-color: transparent;
+  }
+}
+
+.btn-danger {
+  background-color: transparent;
+  border: 2px solid @btn-danger-border;
+  color: @btn-danger-bg;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    border-color: #262626;
+    color: #262626;
+    background-color: transparent;
+  }
+}
+
+.btn-warning {
+  background-color: transparent;
+  border: 2px solid @btn-warning-border;
+  color: @btn-warning-bg;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    border-color: #262626;
+    color: #262626;
+    background-color: transparent;
+  }
+}
+
+
+.btn-info {
+  background-color: transparent;
+  border: 2px solid @btn-info-border;
+  color: @btn-info-bg;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    border-color: #262626;
+    color: #262626;
+    background-color: transparent;
+  }
+}
+
+
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid @btn-primary-border;
+  color: @btn-primary-bg;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    border-color: #262626;
+    color: #262626;
+    background-color: transparent;
+  }
+}
+
+
+.ct-topBar-container {
+  .btn-group .btn {
+
+    &:first-child {
+      padding: 0 !important;
+
+      img {
+        height: 42px;
+        width: 42px;
+      }
+    }
+  }
+}
+

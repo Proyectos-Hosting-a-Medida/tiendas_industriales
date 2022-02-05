@@ -1,0 +1,527 @@
+/*------------------------------------------------------------------
+Project:	Rota Name HTML Template
+Version:	1.0
+Last change:	18 March 2016
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Font Awesome
+2. Typography
+3. Buttons
+4. Form
+5. Menu
+6. Widget
+7. Footer
+8. Slick
+9. Icon BOx
+10. Price table
+11. Testimonials
+12. Warning section
+13. Coupons
+14. Careers section
+15. About Us
+16. Light Gallery
+17. Date picker
+18. Utilities
+
+
+-------------------------------------------------------------------*/
+@import "variables.less";
+
+// z-index // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+@z-index-1: 1000;
+@z-index-2: 2000;
+@z-index-3: 3000;
+@z-index-4: 4000;
+@z-index-5: 5000;
+@z-index-6: 6000;
+@z-index-7: 7000;
+@z-index-8: 8000;
+@z-index-9: 9000;
+
+
+@import "ct/mixins.less";
+@import "animate.less";
+@import "../fonts/fontawesome/less/font-awesome.less";
+@import "ct/typography.less";
+@import "ct/buttons.less";
+@import "ct/motive.less";
+@import "ct/form.less";
+@import "ct/menu.less";
+@import "ct/widget.less";
+@import "ct/footer.less";
+@import "../plugins/slick/slick.less";
+@import "ct/slider.less";
+@import "ct/icon-boxes.less";
+@import "ct/price-section.less";
+@import "ct/testimonials.less";
+@import "ct/warning-section.less";
+@import "ct/coupons-section.less";
+@import "ct/careers-section.less";
+@import "ct/about-us.less";
+@import "../js/lightgallery/lightgallery.less";
+@import "../js/lightgallery/lg-transitions.less";
+@import "../plugins/bootstrap-datapicker/css/bootstrap-datepicker.less";
+@import "../js/timepicker/dist/bootstrap-clockpicker.less";
+
+
+img, figure {
+  max-width: 100%;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+
+}
+
+// Wrapper and Snap.js // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-pageWrapper {
+  z-index: 3;
+  background-color: inherit;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  //.ct-m-boxShadow(-5px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width: @screen-xs-max) {
+  .ct-pageWrapper {
+    padding-top: 0;
+  }
+}
+
+/*
+body.boxed, .ptn1, .ptn2, .ptn3, .ptn4, .ptn5, .ptn6, .ptn7, .ptn8, .ptn9, .ptn10, .ptn11, .ptn12, .ptn13{
+  .ct-pageWrapper{
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+.ptn1, .ptn2, .ptn3, .ptn4, .ptn5, .ptn6, .ptn7, .ptn8, .ptn9, .ptn10, .ptn11, .ptn12, .ptn13{
+  background-attachment: fixed !important;
+}
+
+.ptn1{
+  background: url("../images/bg_pattern_01.jpg") repeat;
+}
+*/
+
+
+img:focus, img:hover, img:active{
+  outline: none;
+}
+
+
+@media (max-width: @screen-xs-max) {
+  .ct-pageWrapper {
+    overflow: hidden;
+    position: relative;
+    padding-top: 0;
+    .nav-logo {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      img {
+        height: 42px;
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-xs-max) {
+  .ct-menuMobile {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-search {
+    display: none;
+  }
+}
+
+[data-background] {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+// Animations // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.cssAnimate .animated {
+  opacity: 0;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
+}
+
+.cssAnimate .activate {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+@import "ct/motive.less";
+@import "ct/utilities.less";
+
+.ct-isotope-gallery {
+  margin-left: -15px;
+  margin-right: -15px;
+  .ct-services-header {
+    letter-spacing: 1.2px;
+    color: @font-color-white;
+    z-index: 1;
+    transition: all .3s ease;
+    &:after {
+      content: ' ';
+      display: block;
+      border-bottom: 3px solid white;
+      opacity: 0.3;
+      width: 30px;
+      padding-top: 15px;
+      //margin-bottom: 20px;
+      transition: all .3s ease;
+    }
+  }
+}
+
+.ct-isotope-item {
+  width: 50%;
+  &:hover{
+    .ct-services-header{
+      padding-left: 10px;
+    }
+  }
+  .ct-isotope-item-inner {
+    padding: 0 15px;
+
+
+    img {
+      max-width: none;
+      width: 100%;
+      height: 100%;
+
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    img:hover {
+      /*width: 105%;
+      height: 105%;*/
+      //-webkit-filter: blur(2px);
+      -webkit-filter: brightness(50%);
+      -moz-filter: brightness(50%);
+      -o-filter: brightness(50%);
+      -ms-filter: brightness(50%);
+      filter: brightness(50%);
+
+    }
+    .ct-testimonials {
+      img {
+        max-width: none;
+        width: auto;
+      }
+      h5 {
+        font-style: normal;
+      }
+    }
+  }
+
+}
+
+@media (max-width: @screen-xs) {
+  .ct-isotope-item {
+    width: 100%;
+    //font-size: 10px;
+  }
+}
+
+.ct-isotope-item__media {
+  position: relative;
+  overflow: hidden;
+}
+
+.ct-isotope-item__inner {
+  position: relative;
+  top: -95px;
+  margin-bottom: -45px;
+  left: 30px;
+  color: white;
+}
+
+
+.ct-gallery .ct-gallery .ct-slick .item {
+  width: 100%;
+}
+
+
+
+.ct-tablet-searcher {
+  display: none;
+  padding-top: 20px;
+  background-color: transparent;
+  .ct-m-transform(all, .3s, ease);
+
+
+  &:hover {
+    color: @motive;
+    background-color: transparent;
+  }
+}
+
+
+@media (max-width: @screen-lg) {
+  .ct-tablet-searcher {
+    display: inline-block;
+  }
+
+  .ct-desktop-searcher {
+    display: none;
+  }
+
+  .navbar-left li {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+}
+
+
+
+.ct-header-contact {
+  text-align: right;
+  padding: 48px 0 0;
+
+  ul {
+    display: inline-block;
+  }
+
+  li {
+    padding-left: 20px;
+
+    a {
+      font-size: 26px;
+      color: #333;
+      
+      &:hover {
+        color: @motive;
+      }
+    }
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .ct-header-contact {
+    padding: 57px 0 0;
+  }
+}
+
+
+
+
+@media (max-width: @screen-xs-max) {
+  .ct-header-contact {
+    padding: 10px 0 5px;
+    text-align: center;
+
+    li {
+      padding-left: 15px;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+.ct-color-box {
+  padding-top: 20px;
+  .btn-group {
+    .btn {
+      padding: 0;
+
+      &.btn-accent {
+        padding: 18px 16px;
+      }
+    }
+  }
+}
+
+
+.datepicker {
+  padding-left: 12px;
+}
+
+
+body.boxed, .ptn1, .ptn2, .ptn3, .ptn4, .ptn5, .ptn6, .ptn7, .ptn8, .ptn9, .ptn10, .ptn11, .ptn12, .ptn13{
+  .ct-pageWrapper{
+    max-width: 1400px;
+    margin: auto;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+    background-color: #fff;
+  }
+}
+
+
+.ptn1, .ptn2, .ptn3, .ptn4, .ptn5, .ptn6, .ptn7, .ptn8, .ptn9, .ptn10, .ptn11, .ptn12, .ptn13{
+  background-attachment: fixed !important;
+}
+
+.ptn1{
+  background: url("../images/bg_pattern_01.png") repeat;
+}
+
+.ptn2{
+  background: url("../images/bg_pattern_02.png") repeat;
+}
+
+.ptn3{
+  background: url("../images/bg_pattern_03.png") repeat;
+}
+
+.ptn4{
+  background: url("../images/bg_pattern_04.jpg") repeat;
+}
+
+.ptn5{
+  background: url("../images/bg_pattern_05.jpg") repeat;
+}
+
+.ptn6{
+  background: url("../images/bg_pattern_06.jpg") repeat;
+}
+
+.ptn7{
+  background: url("../images/bg_pattern_07.jpg") repeat;
+}
+
+.ptn8{
+  background: url("../images/bg_pattern_08.jpg") repeat;
+}
+
+.ptn9{
+  background: url("../images/bg_pattern_09.png") repeat;
+}
+
+.ptn10{
+  background: url("../images/bg_pattern_10.png") repeat;
+}
+
+.ptn11{
+  background: url("../images/bg_pattern_11.jpg") repeat;
+}
+
+.ptn12{
+  background: url("../images/bg_pattern_12.png") repeat;
+}
+
+
+.lg-outer .lg-thumb-item {
+  height: 90px;
+}
+
+.open-days {
+  color: @motive;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.open-hours {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+  letter-spacing: 0;
+  color: #000;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.ct-mainContent {
+  padding-right: 30px;
+}
+
+@media (max-width: @screen-lg) {
+  .ct-mainContent {
+    padding-right: 0;
+  }
+}
+
+.ct-historyPost.ct-description p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.ct-historyPost h3 {
+  margin-bottom: 35px;
+}
+
+.team-box .caption-box .caption.upper { bottom: 40px; left: 30px; }
+
+.ct-careersSection .ct-siteMenu li {
+  position: relative;
+  padding-left: 17px;
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+
+.ct-careersSection .ct-siteMenu li:before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+
+.ct-priceSection .ct-pricingBox .ct-pricingBox-desc ul {
+  padding-left: 25px;
+  padding-right: 25px;
+
+  li {
+    padding: 5px 0;
+  }
+}
+
+
+@media (min-width: @screen-lg) {
+  .ct-historyPost .ct-historyGallery img {
+    max-width: 270px;
+  }
+}
+
+
+
+@media (max-width: @screen-xs) {
+
+  .ct-blog-post + .ct-blog-post {
+    padding-top: 25px;
+  }
+
+  .ct-pagination {
+    padding-right: 0;
+    padding-bottom: 50px;
+
+    a {
+      font-size: 10px;
+    }
+
+    .ct-pagination--numbers {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}

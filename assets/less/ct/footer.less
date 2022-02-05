@@ -1,0 +1,38 @@
+footer {
+  font-family: @font4;
+  color: @font-color-gray2;
+  background-color: white;
+  a {
+    color: @font-color-gray2;
+    &:hover, &:focus, &:active {
+      color: @motive;
+    }
+  }
+
+  ul {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
+
+.ct-postfooter {
+
+  p{
+    margin: 0;
+    line-height: 1.6;
+    padding-top: 5px;
+    font-size: 14px;
+  }
+  ul{
+    margin: 0;
+    line-height: 1.6;
+  }
+  @media (min-width: @screen-md) {
+    ul.ct-socialIcons {
+      float: right;
+    }
+  }
+  @media (max-width: @screen-sm-max) {
+    text-align: center;
+  }
+}
