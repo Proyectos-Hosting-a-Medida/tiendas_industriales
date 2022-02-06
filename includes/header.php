@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">   
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+    <link href="assets/css/formulario.css" type="text/css"  rel="stylesheet">
 
 
 </head>

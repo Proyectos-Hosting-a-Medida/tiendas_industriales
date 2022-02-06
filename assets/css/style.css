@@ -7881,6 +7881,7 @@ li.slick-active button {
 .big-blackHeader {
   text-transform: uppercase;
   font-size: 48px;
+  background-color: transparent;
 }
 /*.ct-pricingBoxes--upper:after{
   background-color: @color-lightBeige;
@@ -10761,7 +10762,7 @@ img:active {
   font-weight: 600;
 }
 .ct-fw-700 {
-  background-color: #FFFFFF;
+  background-color: transparent;
   color: #999;
   font-weight: 700;
 }

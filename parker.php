@@ -80,8 +80,7 @@
 </div></div></div></div>
 
 <a href="#MainHeader" class="ct-js-btnScrollUp ct-btnScrollUp"><i class="fa fa-angle-up text-center"></i></a>
-</div>
-   
+<div>
 <!-- Include footer -->
     <?php include_once 'includes/footer.php' ?>;
 </div>
