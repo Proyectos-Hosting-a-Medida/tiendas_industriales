@@ -26,26 +26,24 @@
 <body class="cssAnimate">
 
 <div class="ct-menuMobile">
-   
     <ul class="ct-menuMobile-navbar">
-        <li class="active"><a href="index.html">Inicio</a></li>
+        <li class="active"><a href="index.php">Inicio</a></li>
        
-        <li class="panel-title"><a href="#services" role="button" data-toggle="collapse" aria-expanded="true"
-                                   aria-controls="services">
+        <li class="panel-title"><a href="#services" role="button" data-toggle="collapse" aria-expanded="true"aria-controls="services">
             <span>Servicios</span><span class="caret"></span></a>
             <div id="services" class="panel-collapse collapse" role="tabpanel"
                  aria-expanded="true">
                 <ul class="list-group">
-                    <li><a href="carro_taller.html.html">Carro Taller</a></li>
-                    <li><a href="capacitacion_operarios.html">Capacitación de Operarios</a></li>
-                    <li><a href="equipos_diagnostico.html">Equipos de Diagnóstico</a></li>
-                    <li><a href="tecnicos_especializados.html">Técnicos Especializados</a></li>
-                    <li><a href="importaciones.html">Importaciones</a></li>
+                    <li><a href="carro_taller.html.php">Carro Taller</a></li>
+                    <li><a href="capacitacion_operarios.php">Capacitación de Operarios</a></li>
+                    <li><a href="equipos_diagnostico.php">Equipos de Diagnóstico</a></li>
+                    <li><a href="tecnicos_especializados.php">Técnicos Especializados</a></li>
+                    <li><a href="importaciones.php">Importaciones</a></li>
                 </ul>
             </div>
         </li>
         
-        <li class=""><a href="contact.html">Contacto</a></li>
+        <li class=""><a href="contact.php">Contacto</a></li>
     </ul>
 </div>
 
@@ -64,18 +62,16 @@
     </div>
 
     <header class="ct-mainHeader" id="MainHeader">
-
         <div class="ct-topBar">
             <div class="navbar ct-topBar-container">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-4 col-md-2 col-sm-6 col-xs-5 ct-u-marginBoth40 nav-logo">
-                            <a href="index.html" class="navbar-logo">
+                            <a href="index.php" class="navbar-logo">
                                 <img src="assets/images/content/logo.png" alt="Logo">
                             </a>
                         </div>
-
                         <div class="col-lg-4 visible-lg ct-u-marginBoth60">
                             <div class="media contact">
                                 <div class="media-left">
@@ -108,16 +104,11 @@
                                 </div>
                             </div>
                         </div>
-
-                        
-
-
                         <div class="col-xs-6 col-xs-offset-1 visible-xs">
                             <button class="navbar-toggle ct-u-colorBlack" id="ct-js-search-button"><i
-                                    class="fa fa-bars ct-u-colorWhite"></i></button>
-                            
+                                    class="fa fa-bars ct-u-colorWhite"></i>
+                            </button>
                         </div>
-
                         <div class="col-md-3 col-md-offset-7 col-sm-3 col-sm-offset-3 col-xs-12 hidden-lg ct-header-contact">
                             <ul class="list-unstyled list-inline">
                                 <li>

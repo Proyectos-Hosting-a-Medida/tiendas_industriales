@@ -11,7 +11,7 @@
                 <div class="col-lg-12">
                     <div class="ct-mainContent">
                     <div class="ct-jobDescription">
-                        <img src="assets/images/content/logo-correas.jpg" alt="brakes" class=" align-center-logo ct-u-paddingBoth40">
+                        <img src="assets/images/content/logo-correas.png" alt="brakes" class=" align-center-logo ct-u-paddingBoth40">
 
                         <p class="subtitle">Ofrece soluciones integrales para la industria, contamos con personal calificado
                         que lo asesora en calidad y uso adecuado de cada uno de nuestros productos. Tenemos todo en correas,

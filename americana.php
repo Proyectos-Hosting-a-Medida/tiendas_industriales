@@ -13,7 +13,7 @@
                     <div class="ct-jobDescription">
 
                        <!-- <h1 class="big-blackHeader">Discorreas Mangueras y Empaques S.A.</h1>-->
-                        <img src="assets/images/content/logo-americana.jpg" alt="brakes" class=" align-center-logo ct-u-paddingBoth40">
+                        <img src="assets/images/content/logo-americana.png" alt="brakes" class=" align-center-logo ct-u-paddingBoth40">
 
                         <p class="subtitle">Ofrece soluciones integrales para la industria, contamos con personal calificado
                         que lo asesora en calidad y uso adecuado de cada uno de nuestros productos. Tenemos todo en correas,

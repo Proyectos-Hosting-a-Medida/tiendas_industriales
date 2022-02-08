@@ -1,14 +1,11 @@
 <footer>
-
     <div class="ct-postfooter container ct-u-paddingBoth20">
         <div class="row">
             <div class="col-lg-12 col-md-12 text-center ct-copyright">
-                © <?php echo date("Y") ; ?> Tiendas Industriales. All rights reserved. Diseñado por Hosting a Medida <a
-                        href="https://www.hostingamedida.com/" target="_blank">visitanos</a>
+                © <?php echo date("Y") ; ?> Tiendas Industriales. All rights reserved. Diseñado por <a href="https://www.hostingamedida.com/" target="_blank">Hosting a Medida</a>
             </div>
         </div>
     </div>
-
 </footer>
 
 <a href="#MainHeader" class="ct-js-btnScrollUp ct-btnScrollUp"><i
