@@ -27,20 +27,20 @@
                         <h6 class="address">Dirección principal</h6>
                         <h4>Calle 13 # 27 - 08 Bogotá </h4>
                         <h6 class="phone">Teléfono</h6>
-                        <a href="tel:0312014306"><h4> +571 201 43 60</h4></a>
+                        <a href="tel:6012014306"><h4> +57 601 201 43 60</h4></a>
                         <h6 class="phone">Celular</h6>
                         <a href="tel:3164682021"><h4> +57 316 468 20 21</h4></a>
                         <h6 class="phone">email</h6>
-                        <a href="mailto:parker.store@discorrreas.com"><h5>parker.store@discorreas.com</h5></a>
+                        <!-- <a href="mailto:parker.store@discorrreas.com"><h5>parker.store@discorreas.com</h5></a> -->
                         <h6>Horario de Atención</h6>
                         <h4>Lunes a vienes:<br>
-                         7:45am — 5:30pm</h4>
-                        <h4>Sábado:<br> 8:00am — 12:15pm</h4>
+                         8:00am — 1:00pm / 1:30pm — 5:00pm </h4>
+                        <h4>Sábado:<br> 8:00am — 12:00pm</h4>
                         <h4>Domingo: Cerrado</h4>
                         <!--<a href="contact.html" class="btn btn-white ct-u-marginTop20">Envianos un mensaje</a>-->
-                        <div class="ct-jobRequirements">
-                           <a href="http://www.discorreas.com/" target="_blank" class="btn btn-accent ct-u-marginBoth50"> Visita Nuestra Página</a>
-                        </div>
+                        <a href="https://wa.me/573164682021/?text=tu%20Hola!" class="btn btn-white ct-u-marginTop20" target="_blank">
+                            <img src="assets/images/logo-wa.png" width="50" height="50"> WhatsApp
+                        </a>
                     </div>
                 </div>
 

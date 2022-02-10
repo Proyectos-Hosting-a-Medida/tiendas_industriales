@@ -27,20 +27,20 @@
                         <h6 class="address">Dirección principal</h6>
                         <h4>Calle 13 # 27 - 26 Bogotá </h4>
                         <h6 class="phone">Teléfono</h6>
-                        <a href="tel:0312375225"><h4> +571 237 52 25</h4></a>
+                        <a href="tel:6012375225"><h4> +57 601 237 52 25</h4></a>
                         <h6 class="phone">Celular</h6>
                         <a href="tel:3174334479"><h4> +57 317 433 44 79</h4></a>
                         <h6 class="phone">email</h6>
-                        <a href="mailto:gates.center@discorreas.com"><h5>gates.center@discorreas.com</h5></a>
+                        <!-- <a href="mailto:gates.center@discorreas.com"><h5>gates.center@discorreas.com</h5></a> -->
                         <h6>Horario de Atención</h6>
                         <h4>Lunes a vienes:<br>
-                         7:45am — 5:30pm</h4>
-                        <h4>Sábado:<br> 8:00am — 12:15pm</h4>
+                         8:00am — 12:30pm</h4>
+                        <h4>Sábado:<br> 1:30am — 5:00pm</h4>
                         <h4>Domingo: Cerrado</h4>
                         <!--<a href="contact.html" class="btn btn-white ct-u-marginTop20">Envianos un mensaje</a>-->
-                        <div class="ct-jobRequirements">
-                           <a href="http://www.discorreas.com/" target="_blank" class="btn btn-accent ct-u-marginBoth50"> Visita Nuestra Página</a>
-                        </div>
+                        <a href="https://wa.me/573174334479/?text=tu%20Hola!" class="btn btn-white ct-u-marginTop20" target="_blank">
+                            <img src="assets/images/logo-wa.png" width="50" height="50"> WhatsApp
+                        </a>
                     </div>
                 </div>
 

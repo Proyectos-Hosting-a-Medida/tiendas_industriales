@@ -44,6 +44,8 @@
         </li>
         
         <li class=""><a href="contact.php">Contacto</a></li>
+        <li class=""><a href="">Facebook</a></li>
+        <li class=""><a href="">Instagram</a></li>
     </ul>
 </div>
 
@@ -66,7 +68,8 @@
             <div class="navbar ct-topBar-container">
                 <div class="container">
                     <div class="row">
-
+                       
+                    
                         <div class="col-lg-4 col-md-2 col-sm-6 col-xs-5 ct-u-marginBoth40 nav-logo">
                             <a href="index.php" class="navbar-logo">
                                 <img src="assets/images/content/logo.png" alt="Logo">
@@ -102,6 +105,21 @@
                                         <h2 class="ct-u-colorBlack text-uppercase">Calle 13 # 27 - 02</h2>
                                     </a>
                                 </div>
+
+                                <div class="media-left">
+                                        <!-- Facebook -->
+                                        <a href="#" class="" target="_blank">
+                                            <img src="assets/images/facebook-brands.svg" width="20" height="20" alt="Facebook">
+                                        </a>
+                                </div>
+
+                                <div class="media-left">
+                                        <!-- Instagram -->
+                                        <a href="#" class="" target="_blank">
+                                            <img src="assets/images/instagram-brands.svg" width="20" height="20" alt="Instagram">
+                                        </a>
+                                </div>
+
                             </div>
                         </div>
                         <div class="col-xs-6 col-xs-offset-1 visible-xs">

@@ -11,22 +11,10 @@
                 <div class="col-lg-12">
                     <div class="ct-mainContent">
                     <div class="ct-jobDescription">
-                     <!--   <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Services</li>
-                        </ol>-->
-
-                       <!-- <h1 class="big-blackHeader">Discorreas Mangueras y Empaques S.A.</h1>-->
                         <img src="assets/images/content/logo-discorreas.png" alt="brakes" class=" align-center-logo ct-u-paddingBoth40">
-
                         <p class="subtitle">Ofrece soluciones integrales para la industria, contamos con personal calificado
                         que lo asesora en calidad y uso adecuado de cada uno de nuestros productos. Tenemos todo en correas,
                         mangueras, acoples, accesorios y mucho más. Desde 1983 atendemos la industria a nivel nacional.</p>
-
-                        <!--<h3 class="ct-fw-700 text-uppercase">confianza total en nuestros productos</h3>
-                        <p>Llevamos 34 años importando y distribuyendo las mejores y más reconocidas marcas a nivel mundial, 
-                        por esto podemos estar seguros de ofrecer la mejor calidad y servicio a nuestros clientes,  ya sea 
-                    industria , pequeña o mediana empresa.</p>-->
                     </div>
 
     <div class="ct-mapSection ct-u-backgroundLightBlack" data-height="568" id="ct-mapSection">
@@ -38,20 +26,17 @@
                         <h6 class="address">Dirección principal</h6>
                         <h4>Calle 13 # 27 - 02 Bogotá </h4>
                         <h6 class="phone">PBX</h6>
-                        <a href="tel:0313603604"><h4> +571 360 36 04 </h4>
-                            <h6 class="phone">Celular</h6>
+                        <a href="tel:6013603604"><h4> +57 601 360 36 04 </h4>
+                        <h6 class="phone">Celular</h6>
                         <a href="tel:316 468 12 89"><h4> +57 316 468 12 89 </h4>
-                        <!-- <h6 class="phone">email</h6>
-                        <a href="mailto:ventas@discorreas.com"><h5>ventas@discorreas.com</h5></a> -->
                         <h6>Horario de Atención</h6>
                         <h4>Lunes a vienes:<br>
-                         7:45am — 5:30pm</h4>
-                        <h4>Sábado:<br> 8:00am — 12:15pm</h4>
+                         8:00am — 5:00pm</h4>
+                        <h4>Sábado:<br> 8:00am — 12:00pm</h4>
                         <h4>Domingo: Cerrado</h4>
-                        <a href="contact.php" class="btn btn-white ct-u-marginTop20">Envianos un mensaje</a>
-                        <div class="ct-jobRequirements">
-                           <a href="http://www.discorreas.com/" target="_blank" class="btn btn-accent ct-u-marginBoth50"> Visita Nuestra Página</a>
-                        </div>
+                        <a href="https://wa.me/573164681289/?text=tu%20Hola!" class="btn btn-white ct-u-marginTop20" target="_blank">
+                            <img src="assets/images/logo-wa.png" width="50" height="50"> WhatsApp
+                        </a>
                     </div>
                 </div>
 
