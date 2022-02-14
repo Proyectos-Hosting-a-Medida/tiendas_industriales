@@ -18,7 +18,7 @@
 <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="../assets/js/device.min.js"></script>
 <script src="../assets/js/browser.min.js"></script>
-<script src="../assets/js/jquery.placeholder.min.js"></script>
+<!-- <script src="../assets/js/jquery.placeholder.min.js"></script> -->
 <script src="../assets/js/lightgallery/lightgallery-all.js"></script>
 <script src="../assets/js/main.js"></script>
 
@@ -28,9 +28,6 @@
 <script src="../assets/js/jquery.slides.js"></script>
 
 <script src="js/jquery.min.js"></script>
-
-
-<script src="assets/js/jquery.placeholder.min.js"></script>
 <script id="googleMap" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?"></script>
 
 <script src="assets/form/js/contact-form.js"></script>

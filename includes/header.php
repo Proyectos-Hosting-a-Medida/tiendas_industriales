@@ -34,7 +34,7 @@
             <div id="services" class="panel-collapse collapse" role="tabpanel"
                  aria-expanded="true">
                 <ul class="list-group">
-                    <li><a href="carro_taller.html.php">Carro Taller</a></li>
+                    <li><a href="carro_taller.php">Carro Taller</a></li>
                     <li><a href="capacitacion_operarios.php">Capacitación de Operarios</a></li>
                     <li><a href="equipos_diagnostico.php">Equipos de Diagnóstico</a></li>
                     <li><a href="tecnicos_especializados.php">Técnicos Especializados</a></li>
@@ -44,8 +44,8 @@
         </li>
         
         <li class=""><a href="contact.php">Contacto</a></li>
-        <li class=""><a href="">Facebook</a></li>
-        <li class=""><a href="">Instagram</a></li>
+        <li class=""><a href="https://www.facebook.com/discorreasmanguerasyempaques">Facebook</a></li>
+        <li class=""><a href="https://www.instagram.com/discorreasmanguerasyempaques">Instagram</a></li>
     </ul>
 </div>
 
@@ -78,14 +78,14 @@
                         <div class="col-lg-4 visible-lg ct-u-marginBoth60">
                             <div class="media contact">
                                 <div class="media-left">
-                                    <a href="tel:0313603604">
+                                    <a href="tel:6013603604">
                                         <img class="media-object" src="assets/images/content/contact.png" alt="contact">
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <a href="tel:0313603604" class="media-right">
+                                    <a href="tel:6013603604" class="media-right">
                                         <h4 class="ct-u-colorMotive text-uppercase">Llamanos</h4>
-                                        <h2 class="ct-u-colorBlack">+ 571 360 36 04</h2>
+                                        <h2 class="ct-u-colorBlack">+ 57 601 360 36 04</h2>
                                     </a>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@
                             <!--hidden-sm ewentualnie dla całego topbaru albo tylko dla telefonu i adresu-->
                             <div class="media">
                                 <div class="media-left">
-                                    <a href="discorreas.html#ct-mapSection">
+                                    <a href="discorreas.php#ct-mapSection">
                                         <img class="media-object" src="assets/images/content/location.png" alt="location">
                                     </a>
                                 </div>
@@ -108,14 +108,14 @@
 
                                 <div class="media-left">
                                         <!-- Facebook -->
-                                        <a href="#" class="" target="_blank">
+                                        <a href="https://www.facebook.com/discorreasmanguerasyempaques" target="_blank">
                                             <img src="assets/images/facebook-brands.svg" width="20" height="20" alt="Facebook">
                                         </a>
                                 </div>
 
                                 <div class="media-left">
                                         <!-- Instagram -->
-                                        <a href="#" class="" target="_blank">
+                                        <a href="https://www.instagram.com/discorreasmanguerasyempaques"  target="_blank">
                                             <img src="assets/images/instagram-brands.svg" width="20" height="20" alt="Instagram">
                                         </a>
                                 </div>
@@ -130,12 +130,12 @@
                         <div class="col-md-3 col-md-offset-7 col-sm-3 col-sm-offset-3 col-xs-12 hidden-lg ct-header-contact">
                             <ul class="list-unstyled list-inline">
                                 <li>
-                                    <a href="tel:0313603604">
+                                    <a href="tel:6013603604">
                                         <i class="fa fa-phone"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="discorreas.html#ct-mapSection">
+                                    <a href="discorreas.php#ct-mapSection">
                                         <i class="fa fa-map-marker"></i>
                                     </a>
                                 </li>

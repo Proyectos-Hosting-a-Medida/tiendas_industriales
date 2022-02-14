@@ -8,8 +8,7 @@
             <div class="col-lg-12">
                 <div class="ct-mainContent">
                     <div class="ct-jobDescription">
-                        <img src="assets/images/content/logo-discorreas.jpg" alt="brakes" class=" align-center-logo ct-u-paddingBoth40">
-                        <p class="subtitle">Email Enviado.</p>
+                        <img src="assets/images/email_enviado.png" alt="Email enviado">
                     </div>                 
                 </div>
             </div>
