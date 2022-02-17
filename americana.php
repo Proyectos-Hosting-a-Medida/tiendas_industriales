@@ -47,7 +47,8 @@
                         </div>
 
                         <div class="col-lg-7 col-md-12 col-sm-12" style="padding:25px;">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1406.0443925329234!2d-74.08933247988925!3d4.612969435845125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9971f6d23499%3A0x303dac0b5ae35f4c!2sCl.+15+%2325-84%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1514988170290" width="100%" height="550" frameborder="0" style="border:0; padding-top: 10px" allowfullscreen></iframe>
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1406.0443925329234!2d-74.08933247988925!3d4.612969435845125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9971f6d23499%3A0x303dac0b5ae35f4c!2sCl.+15+%2325-84%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1514988170290" width="100%" height="550" frameborder="0" style="border:0; padding-top: 10px" allowfullscreen></iframe> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.5559214611217!2d-74.08819332768496!3d4.612854274706651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9971e4e86817%3A0x2e70bc69f9fd861c!2sAMERICANA%20DE%20CORREAS%20Y%20MANGUERAS!5e0!3m2!1ses!2sco!4v1645129911766!5m2!1ses!2sco" width="100%" height="550" style="border:0; padding-top: 10px" allowfullscreen></iframe>
                         </div>
 
                         <div class="widget ct-widget-contact">

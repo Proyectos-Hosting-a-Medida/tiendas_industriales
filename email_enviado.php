@@ -8,7 +8,8 @@
             <div class="col-lg-12">
                 <div class="ct-mainContent">
                     <div class="ct-jobDescription">
-                        <img src="assets/images/email_enviado.png" alt="Email enviado">
+                        <img src="assets/images/email_enviado.jpeg" alt="Email enviado">
+                        <br><br><br>
                     </div>                 
                 </div>
             </div>

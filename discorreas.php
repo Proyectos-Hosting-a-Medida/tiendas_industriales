@@ -42,7 +42,7 @@
 
                 <div class="col-lg-7 col-md-12 col-sm-12" style="padding:25px;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295.58469830477077!2d-74.08952977990347!3d4.612306418670587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMzYnNDQuNCJOIDc0wrAwNScyMS45Ilc!5e0!3m2!1ses!2sco!4v1514431108876" width="100%" height="550" frameborder="0" style="border:0; padding-top: 10px" allowfullscreen></iframe>
-                </div>
+                 </div>
 
                 <div class="widget ct-widget-contact">
                     <h3 class="send_text">Envienos un Email</h3>
@@ -65,7 +65,7 @@
 
                         <input id="submit-send" name="submit" type="submit" value="Enviar Formulario">
 
-                        <input type="hidden"  name="email_destino" value= "ventas@discorreas.com">
+                        <input type="hidden"  name="email_destino" value= "servicioalcliente@discorreas.com">
 
                     </form>
                 </div> 

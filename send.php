@@ -4,12 +4,12 @@
 // var_dump($_POST['email_destino']);
 // die();
 
-if ($_POST['email_destino'] == "ventas@discorreas.com") {
+if ($_POST['email_destino'] == "servicioalcliente@discorreas.com") {
 
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
-    $para = 'ventas@discorreas.com';
+    $para = 'servicioalcliente@discorreas.com';
     $titulo = 'Email desde sitio web Tiendas Industriales';
     
     $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
@@ -22,11 +22,11 @@ if ($_POST['email_destino'] == "ventas@discorreas.com") {
         }
     }
 
-} else if ($_POST['email_destino'] == "calle15@americanadecorreas.com") {
+} else if ($_POST['email_destino'] == "administrador@americanadecorreas.com") {
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
-    $para = 'calle15@americanadecorreas.com';
+    $para = 'administrador@americanadecorreas.com"';
     $titulo = 'Email desde sitio web Tiendas Industriales';
     
     $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
