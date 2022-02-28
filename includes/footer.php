@@ -4,6 +4,9 @@
             <div class="col-lg-12 col-md-12 text-center ct-copyright">
                 © <?php echo date("Y") ; ?> Tiendas Industriales. All rights reserved. Diseñado por <a href="https://www.hostingamedida.com/" target="_blank">Hosting a Medida</a>
             </div>
+            <div class="col-lg-12 col-md-12 text-center ct-copyright"><br>
+            <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=YlSi6KbwVlnTm62nWSYezxxsVevp7YMqjMUkkdMnwS8Yo4SiFZlRhsacDe83"></script></span>
+            </div>
         </div>
     </div>
 </footer>
