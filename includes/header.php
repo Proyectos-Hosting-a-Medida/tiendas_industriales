@@ -13,7 +13,10 @@
     <link rel="shortcut icon" href="assets/images/content/favicon.png">
     <!--<link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
 
-    <title>Tiendas Industriales</title>
+    <title><?php echo $page; ?></title>
+    <meta name="author" content="Discorreas Mangueras y Empaques">
+    <meta name="keywords" content="correas hidraulicas,mangueras,conexiones,motores,válvulas,metalmecánica,hidráulica,correas,bandas">
+    <meta name="description" content="Empresa de distribución, importación y comercialización de elementos de transmisión de fluidos y potencia para la industria, la pequeña y mediana empresa." />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
@@ -21,6 +24,14 @@
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
     <link href="assets/css/formulario.css" type="text/css"  rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YH1X0YCWP6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YH1X0YCWP6');
+        </script>
 
 </head>
 <body class="cssAnimate">

@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Americana de Correas y Mangueras"; ?> 
 <?php include_once 'includes/header.php' ?>;
 
 <body class="cssAnimate">

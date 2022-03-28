@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Gracias por comunicarse"; ?> 
 <?php include_once 'includes/header.php' ?>;
 <?php include_once 'includes/menu.php' ?>;
 

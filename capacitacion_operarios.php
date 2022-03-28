@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Capacitación Operarios"; ?> 
 <?php include_once 'includes/header.php' ?>;
 <?php include_once 'includes/menu.php' ?>;
 

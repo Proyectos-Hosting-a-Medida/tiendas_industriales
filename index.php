@@ -1,5 +1,6 @@
 <!-- Include Encabezado -->
-<?php include_once 'includes/header.php' ?>;
+<?php $page = "Tiendas Industriales | Bogotá Colombia"; ?> 
+<?php include_once 'includes/header.php'?>;
 
 <div class="row" style="margin-bottom: 20px;">
     <h3 class="text-center text-uppercase ct-u-paddingBoth20">Información Empresas</h3>
@@ -10,31 +11,31 @@
     <div class="row align-items-center" style="margin-bottom: 20px;">
         <!-- Botones de las marcas -->
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 center-block ">
-            <a class="linkopacity" href="discorreas.php">
+            <a class="linkopacity" href="https://www.tiendasindustriales.com/discorreas.php">
                 <img src="assets/images/content/logo-discorreas.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="americana.php">
+            <a class="linkopacity" href="https://www.tiendasindustriales.com/americana.php">
                 <img src="assets/images/content/logo-americana.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="correas_ind.php">
+            <a class="linkopacity" href="https://www.tiendasindustriales.com/correas_ind.php">
                 <img src="assets/images/content/logo-correas.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="gates.php">
+            <a class="linkopacity" href="https://www.tiendasindustriales.com/gates.php">
                 <img src="assets/images/content/logo-gates.jpg" alt="Logo">
             </a>
         </div>
 
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  center-block">
-            <a class="linkopacity" href="parker.php">
+            <a class="linkopacity" href="https://www.tiendasindustriales.com/parker.php">
                 <img src="assets/images/content/logo-parker.jpg" alt="Logo">
             </a>
         </div>

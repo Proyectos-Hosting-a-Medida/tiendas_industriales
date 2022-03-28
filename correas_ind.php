@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Correas Industriales"; ?> 
 <?php include_once 'includes/header.php' ?>;
 
 <body class="cssAnimate">

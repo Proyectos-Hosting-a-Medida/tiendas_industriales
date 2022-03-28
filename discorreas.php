@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Discorreas Mangueras y Empaques"; ?> 
 <?php include_once 'includes/header.php' ?>;
 
 <body class="cssAnimate">

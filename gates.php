@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Gates Center"; ?> 
 <?php include_once 'includes/header.php' ?>;
 
 <body class="cssAnimate">

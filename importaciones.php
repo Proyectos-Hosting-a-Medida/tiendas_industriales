@@ -1,4 +1,5 @@
 <!-- Include Encabezado -->
+<?php $page = "Tiendas Industriales Importaciones"; ?> 
 <?php include_once 'includes/header.php' ?>;
 <?php include_once 'includes/menu.php' ?>;
 
