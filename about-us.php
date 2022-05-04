@@ -9,10 +9,12 @@
                 <div class="ct-mainContent">
                     <div class="ct-jobDescription">
                         <h1 class="big-blackHeader">Tiendas Industriales</h1>
-                        <p class="subtitle">Es un Grupo Empresarial conformado por cinco empresas dedicadas a importar y comercializar elementos de transmisión de fluidos
-                           y potencia para la industria, la pequeña y mediana empresa.
-                        Nos caracterizamos por nuestro compromiso con la calidad y el buen servicio, para lo cual escogemos las mejores y más reconocidas marcas a nivel
-                        mundial que nos permiten dar garantía y soporte en cada uno de nuestros productos. </p>
+                        <p class="subtitle">
+                            Es un Grupo Empresarial conformado por cinco empresas dedicadas a importar y comercializar 
+                            elementos de transferencia defluidos y de transmisión de potencia, para la industria, la pequeña y mediana empresa. 
+                            Nos caracterizamos por nuestro compromiso con la calidad y el buen servicio, para lo cual, escogemos las mejores y 
+                            más reconocidas marcas a nivel mundial que nos permiten dar garantía y soporte en cada uno de nuestros productos.
+                        </p>
                     </div>
                 </div>
             </div>
