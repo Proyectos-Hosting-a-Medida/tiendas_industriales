@@ -34,7 +34,7 @@
                         <h6 class="phone">email</h6>
                         <!-- <a href="mailto:gates.center@discorreas.com"><h5>gates.center@discorreas.com</h5></a> -->
                         <h6>Horario de Atención</h6>
-                        <h4>Lunes a vienes:<br>
+                        <h4>Lunes a viernes:<br>
                          8:00am — 12:30pm</h4>
                         <h4>Sábado:<br> 1:30am — 5:00pm</h4>
                         <h4>Domingo: Cerrado</h4>

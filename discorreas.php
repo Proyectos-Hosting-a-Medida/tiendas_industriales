@@ -31,7 +31,7 @@
                         <h6 class="phone">Celular</h6>
                         <a href="tel:316 468 12 89"><h4> +57 316 468 12 89 </h4>
                         <h6>Horario de Atención</h6>
-                        <h4>Lunes a vienes:<br>
+                        <h4>Lunes a viernes:<br>
                          8:00am — 5:00pm</h4>
                         <h4>Sábado:<br> 8:00am — 12:00pm</h4>
                         <h4>Domingo: Cerrado</h4>
