@@ -35,8 +35,9 @@
                         <!-- <a href="mailto:gates.center@discorreas.com"><h5>gates.center@discorreas.com</h5></a> -->
                         <h6>Horario de Atención</h6>
                         <h4>Lunes a viernes:<br>
-                         8:00am — 12:30pm</h4>
-                        <h4>Sábado:<br> 1:30am — 5:00pm</h4>
+                         8:00am — 12:30pm
+                        1:30pm — 5:00pm</h4>
+                        <h4>Sábado:<br> 8:00am — 12:00pm</h4>
                         <h4>Domingo: Cerrado</h4>
                         <!--<a href="contact.html" class="btn btn-white ct-u-marginTop20">Envianos un mensaje</a>-->
                         <a href="https://wa.me/573174334479/?text=tu%20Hola!" class="btn btn-white ct-u-marginTop20" target="_blank">
