@@ -1,0 +1,65 @@
+[28-Oct-2021 09:39:36 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 10:37:50 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 10:48:59 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 10:57:26 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 11:10:41 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 11:11:27 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 11:19:23 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 11:21:27 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19
+[28-Oct-2021 11:24:20 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:21
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(21): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 21
+[28-Oct-2021 11:25:13 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:21
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(21): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 21
+[28-Oct-2021 11:25:30 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:21
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(21): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 21
+[28-Oct-2021 11:29:55 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:21
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(21): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 21
+[28-Oct-2021 11:30:39 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'joelmarquez@gmail.com'@'localhost' (using password: YES) in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php:19
+Stack trace:
+#0 /home/ambien/public_html/midescuento/admin/logica/adminRegister.php(19): PDO->__construct('mysql:host=loca...', 'joelmarquez@gma...', 'Caracasvenezuel...')
+#1 {main}
+  thrown in /home/ambien/public_html/midescuento/admin/logica/adminRegister.php on line 19

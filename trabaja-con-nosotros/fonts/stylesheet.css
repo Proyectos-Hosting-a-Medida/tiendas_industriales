@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'MMC OFFICE';
+    src: url('MMCOFFICE-Medium.eot');
+    src: local('MMC OFFICE Medium'), local('MMCOFFICE-Medium'),
+        url('MMCOFFICE-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MMCOFFICE-Medium.woff2') format('woff2'),
+        url('MMCOFFICE-Medium.woff') format('woff'),
+        url('MMCOFFICE-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MMC OFFICE';
+    src: url('MMCOFFICE-Bold.eot');
+    src: local('MMC OFFICE Bold'), local('MMCOFFICE-Bold'),
+        url('MMCOFFICE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MMCOFFICE-Bold.woff2') format('woff2'),
+        url('MMCOFFICE-Bold.woff') format('woff'),
+        url('MMCOFFICE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MMC OFFICE';
+    src: url('MMCOFFICE-Regular.eot');
+    src: local('MMC OFFICE Regular'), local('MMCOFFICE-Regular'),
+        url('MMCOFFICE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MMCOFFICE-Regular.woff2') format('woff2'),
+        url('MMCOFFICE-Regular.woff') format('woff'),
+        url('MMCOFFICE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MMC OFFICE';
+    src: url('MMCOFFICE-Bold_1.eot');
+    src: local('MMC OFFICE Bold'), local('MMCOFFICE-Bold'),
+        url('MMCOFFICE-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('MMCOFFICE-Bold_1.woff2') format('woff2'),
+        url('MMCOFFICE-Bold_1.woff') format('woff'),
+        url('MMCOFFICE-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MMC OFFICE';
+    src: url('MMCOFFICE-Regular_1.eot');
+    src: local('MMC OFFICE Regular'), local('MMCOFFICE-Regular'),
+        url('MMCOFFICE-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('MMCOFFICE-Regular_1.woff2') format('woff2'),
+        url('MMCOFFICE-Regular_1.woff') format('woff'),
+        url('MMCOFFICE-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MMC OFFICE';
+    src: url('MMCOFFICE-Medium_1.eot');
+    src: local('MMC OFFICE Medium'), local('MMCOFFICE-Medium'),
+        url('MMCOFFICE-Medium_1.eot?#iefix') format('embedded-opentype'),
+        url('MMCOFFICE-Medium_1.woff2') format('woff2'),
+        url('MMCOFFICE-Medium_1.woff') format('woff'),
+        url('MMCOFFICE-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
