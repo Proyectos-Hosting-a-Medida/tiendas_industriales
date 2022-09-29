@@ -36,7 +36,7 @@ $(document).ready(function(){
 
       $('#cargo').on('change', function(){
       
-        $('#cargo').html($('#cargo option:selected').text());
+        $('#cargo_text').html($('#cargo option:selected').text());
     });
 
         $('#user_barrio').on('change', function(){

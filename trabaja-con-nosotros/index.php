@@ -29,7 +29,7 @@
       <article>
           <div class="logo-ah-new"><img src="img/tiendas_industriales.png"></div>
          <div class="form_new">
-            <form action="controller.php" id="formulario" method="post" enctype="multipart/formdata">
+            <form action="controller.php" id="formulario" method="post" enctype="multipart/form-data">
                <div id="head_mobile">
                   <div class="logo-ah">
                      <img src="img/tiendas_industriales.png" alt="Tiendas Industriales">
@@ -87,14 +87,13 @@
                      <input type="number" name="phone" id="user_phone" data-name="Celular" data-required="false" placeholder="CELULAR" required="required">
                   </div>
 
-                  <input type="hidden"  name="fecha_fin" value= "<?php 
+                  <input type="hidden"  name="fecha_envio" value= "<?php 
                   // Se imprime fecha de finalización de la oferta
                      $fecha = date_create(date('Y-m-d H:i:s'));
-                     date_add($fecha, date_interval_create_from_date_string("2 weeks"));
                      echo date_format($fecha,"Y-m-d H:i:s"); ?>" id="user_date" data-name="Fecha-Fin" data-required="false">
 
                   <div class="row select1" style="margin-top: 3px!important; ">                  
-                  <select name="articulo" id="cargo" data-name="tipo de cargo" data-required="true" placeholder="" >
+                  <select name="tipo_de_cargo" id="cargo" data-name="tipo de cargo" data-required="true" placeholder="" >
                       <option value="">CARGO AL CUAL SE POSTULA:</option>
                       <option value="ADMINISTRATIVO">ADMINISTRATIVO</option>
                       <option value="ASESOR DE VENTAS">ASESOR DE VENTAS</option>
@@ -104,9 +103,9 @@
                   <span class="select1-fondo" id="cargo_text">CARGO AL CUAL SE POSTULA:</span>
                 </div>
 
-                <div class="row" style="margin-top: 3px !important;">
-                     <P>ADJUNTA TU HOJA DE VIDA (solo pdf, word, jpg)
-                     <input type="file" name="cv" id="user_cv" data-name="hoja de vida" data-required="true" placeholder="HOJA DE VIDA" required="required"></P>
+                <div class="row file-select" style="margin-top: 3px !important;">
+                     <P>ADJUNTA TU HOJA DE VIDA (solo pdf, .doc y .docx)
+                     <input type="file" name="archivo" id="user_cv" data-name="hoja de vida" data-required="true" placeholder="HOJA DE VIDA" required="required"></P>
                      <span class="select1-fondo" id="user_cv"></span>
                </div>
 
@@ -157,7 +156,7 @@
          alert('Tus datos han sido enviados, pronto nos comunicaremos contigo');
          //document.getElementById('messageSent').style.display='';
          </script-->
-   <div id="overlay-error" style="">
+   <div id="overlay-error">
       <div class="contenido">
          <div class="overConfirm">
             <a id="overlay-error-cerrar" class="cerrar">x</a>

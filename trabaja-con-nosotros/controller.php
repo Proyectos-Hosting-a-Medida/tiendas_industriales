@@ -1,78 +1,78 @@
-<?php
-// session_start();
-// error_reporting(E_ALL);
-// //ini_set('display_errors', 'Off');
-// ini_set('display_errors', 'On');
+<?php 
 
-require_once('connection/conf.php');
+    ini_set("SMTP", "mail.tiendasindusriales.com");
+    ini_set("smtp_port", "localhost");
+    ini_set('sendmail_from', 'info@tiendasindustriales.com');
 
-?>
+    $nombre = strip_tags($_POST["name_surname"]);
+    $email =  strip_tags($_POST["email"]);
+    $cedula = strip_tags($_POST["cedula"]);
+    $barrio = strip_tags($_POST["barrio"]);
+    $phone =  strip_tags($_POST["phone"]);
+    $cargo =  strip_tags($_POST["tipo_de_cargo"]);
+    
+    $nameFile = $_FILES['archivo']['name'];
+    $sizeFile = $_FILES['archivo']['size'];
+    $typeFile = $_FILES['archivo']['type'];
+    $tempFile = $_FILES["archivo"]["tmp_name"];
+    
+
+    $fecha = time();
+    $fechaFormato = date("j/n/Y",$fecha);
+
+    $correoDestino = "info@tiendasindustriales.com";
+
+    //Asunto del correo
+    $asunto = "Nueva hoja de vida enviada desde el sitio web";
+
+    // Mensaje en formato multipart MIME
+    $cabecera = "MIME-VERSION: 1.0\r\n";
+    $cabecera .= "Content-type: multipart/mixed;";
+    $cabecera .= "boundary=\"=T=I=\"\r\n";
+    $cabecera .= "From: {$email}";
+
+    $cuerpo .= "--=T=I=\r\n";
+    $cuerpo.=  "Content-type: text/plain; charset=iso-8859-1\r\n";
+    $cuerpo .= "charset=utf-8\r\n";
+    $cuerpo .= "Content-Transfer-Encoding: 8bit\r\n";
+    $cuerpo .= "\r\n"; // linea vacia
+    $cuerpo .= "Hoja de vida enviada por: " . $nombre . " \r\n";
+    $cuerpo .= "Email: " . $email . "\r\n";
+    $cuerpo .= "Documento: " . $cedula. "\r\n";
+    $cuerpo .= "Localidad: " . $barrio . "\r\n";
+    $cuerpo .= "Cargo al que aspira: " . $cargo  . "\r\n";
+    $cuerpo .= "\r\n"; // linea vacia
+
+    // Archivo adjunto
+    $cuerpo .= "--=T=I=\r\n";
+    $cuerpo .= "Content-Type: application/pdf; name=\"".$nameFile."\"\r\n";
+    $cuerpo .= "Content-Type: application/msword; name=\"".$nameFile."\"\r\n";
+    $cuerpo .= "Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; name=\"".$nameFile."\"\r\n";
+    $cuerpo .= "Content-Type: application/octet-stream; ";
+    $cuerpo .= "name=" . $nameFile . "\r\n";
+    $cuerpo .= "Content-type: ".$typeFile.";name=\"".$nameFile."\"\n";
+    $cuerpo .= "Content-Transfer-Encoding: base64\r\n";
+    $cuerpo .= "Content-Disposition: attachment;filename=\"".$nameFile."\"\r\n";
+    $cuerpo .= "filename=" . $nameFile . "\r\n";
+    $cuerpo .= "\r\n"; // línea vacía
 
 
-  <?php 
+    $fp = fopen($tempFile, "rb");
+    $file = fread($fp, $sizeFile);
+    $file = chunk_split(base64_encode($file));
+    fclose($fp);
 
-    // Verificar cedula duplicada
-    $cedula_nueva = $_POST['cedula'];
+    $cuerpo .= "$file\r\n";
+    $cuerpo .= "\r\n"; // linea vacia
+    // Delimitador de mensaje
+    $cuerpo .= "--=T=I=\r\n";
 
-    $dsn = "mysql:host=$servidor;port=$port;dbname=$nombreBD";
-    $pdo = new PDO($dsn, $usuario, $password);
+    // Envio del correo
+    if(mail($correoDestino, $asunto, $cuerpo, $cabecera)){
+        echo "Correo Enviado";
 
-    $sql = 'SELECT * FROM clientes WHERE cedula = ?';
-    $stmt= $pdo->prepare($sql);
-    $stmt->execute(array($cedula_nueva));
-    $resultado = $stmt->fetch();
-
-    // var_dump($resultado);
-
-    if($resultado){
-      header ("Location: no-response.php");
-      die;
+    } else {
+        echo "Error al enviar";
     }
-  ?>
-
-  <?php
-    
-        // $dsn = "mysql:host=$dbhost;dbname=$db";
-        $dsn = "mysql:host=$servidor;port=$port;dbname=$nombreBD";
-        $pdo = new PDO($dsn, $usuario, $password);
-
-        try {
-          $gbd = new PDO($dsn, $usuario, $password);
-      } catch (PDOException $e) {
-          echo 'Falló la conexión: ' . $e->getMessage();
-      }
-    
-        $sql = "INSERT INTO clientes (nombre, email, cedula, telefono, barrio, tipoArticulo, fechaInicio, fechaFin) VALUES (?,?,?,?,?,?,?,?)";
-        $stmt= $pdo->prepare($sql);
-        $response = $stmt->execute([$_POST['name_surname'], 
-                                    $_POST['email'], 
-                                    $_POST['cedula'], 
-                                    $_POST['phone'], 
-                                    $_POST['barrio'], 
-                                    $_POST['articulo'], 
-                                    date("Y-m-d H:i:s"),
-                                    $_POST['fecha_fin']]);
-                                    // date("Y-m-d H:i:s")]);
-        $pdo = null;
-
-        // var_dump($response);
-        // die;
-
-        if(isset($_POST['cedula'])){
-          sleep(5);
-          $cedulaCliente = ($_POST['cedula']);
-          header ("Location: verify.php?buscar=$cedulaCliente");
-        }else {
-          echo "No se pudo imprimir tu cupón" . "</br>";
-          echo "<a href='index.php'>  Intenta Nuevamente </a>";
-        }
- 
-    // include 'response.html'; //se debe crear un html que confirma el envío
-    // header ("Location: verify.php");
-    
-
-
-// }
-   
 
 ?>
