@@ -155,7 +155,7 @@ li.terminos_checks input {
 }
 
 .logo-simbolo img {
-    width: 85px;
+    width: 100%;
 	margin-top: 30px;
 }
 
@@ -167,7 +167,7 @@ li.terminos_checks input {
 	margin-bottom: 40px;
 	font-size: 1.75em;
     text-transform: uppercase;
-    font-family: 'Roboto'!important;
+    font-family: 'Rajdhani'!important;
     font-weight: bold!important;
     font-style: normal!important;
     letter-spacing: 1px;
@@ -184,7 +184,7 @@ li.terminos_checks input {
 	margin-bottom: 0.2rem;
 	font-size: 1.95em;
     text-transform: uppercase;
-    font-family: 'Roboto'!important;
+    font-family: 'Rajdhani'!important;
     font-weight: bold!important;
     font-style: normal!important;
     letter-spacing: -1px;
@@ -197,7 +197,7 @@ li.terminos_checks input {
 	text-align: center;
 	font-size: 1rem;
     text-transform: uppercase;
-    font-family: 'Roboto'!important;
+    font-family: 'Rajdhani'!important;
     font-style: normal!important;
 	margin-top: 1rem;
     /* letter-spacing: 1px; */
@@ -224,7 +224,7 @@ li.terminos_checks input {
 	/* margin-bottom: 40px; */
 	font-size: 1em;
     text-transform: uppercase;
-    font-family: 'Roboto'!important;
+    font-family: 'Rajdhani'!important;
     font-weight: bold!important;
     font-style: normal!important;
     letter-spacing: 1px;
@@ -390,7 +390,7 @@ footer {
 }
 body, h1, h2, h3, h4, h5, p, input, a{
 
-   font-family: 'Roboto' !important;
+   font-family: 'Rajdhani' !important;
     font-weight: 300;
     font-style: normal;
 
@@ -616,7 +616,7 @@ article form input[type=checkbox]{
 article form input[type=submit]{
 	font-size: 18px;
 	color: #fff;
-	font-family: 'Roboto' !important;
+	font-family: 'Rajdhani' !important;
     font-weight: 500 !important;
     font-style: normal !important;
 	width: 174px;
@@ -682,7 +682,7 @@ a {
 }
 
 a:hover {
-    color: #ee4695;
+    color: #cc0033;
     text-decoration: none;
 }
 
@@ -817,7 +817,7 @@ footer p span{
 #overlay-error .contenido .cerrar{
 	width: 35px;
 	height: 35px;
-	background: #ee4695;
+	background: #cc0033;
 	color: #FFF;
 	line-height: 35px;
 	text-align: center;
@@ -830,7 +830,7 @@ footer p span{
 }
 #overlay-error .contenido h3{
 	font-size: 24px;
-	color: #ee4695;
+	color: #cc0033;
 	font-weight: bold;
 	margin-bottom: 1.5rem;
 	width: 100%;
@@ -1070,7 +1070,7 @@ article form h3{
 	margin-top: 3rem;
 	width: 50%;
 	height: auto;
-	border: 3px solid #ee4695 ;
+	border: 3px solid #cc0033 ;
 	border-radius: 15px;
 	background: linear-gradient(to bottom, #ebe7e7, white);
 	margin-left: auto;
@@ -1313,7 +1313,7 @@ img.img-respo2{
 	margin-top: 0rem;
 	width: 100%;
 	height: 100%;
-	border: 0px solid #ee4695 ;
+	border: 0px solid #cc0033;
 	border-radius: 0px;
 	background: linear-gradient(to bottom, #ebe7e7, white);
 	margin-left: auto;

@@ -22,12 +22,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 
    </head>
    <body>
       <article>
-          <div class="logo-ah-new"><img src="img/tiendas_industriales.png"></div>
+          <!-- <div class="logo-ah-new"><img src="img/tiendas_industriales_simbolo.png"></div> -->
          <div class="form_new">
             <form action="controller.php" id="formulario" method="post" enctype="multipart/form-data">
                <div id="head_mobile">
@@ -38,7 +38,7 @@
 
                <div class="center-div">
                   <div class="titu-form">
-                  <div class="logo-simbolo"><img src="img/tiendas_industriales_simbolo.png" alt="Tiendas Industriales"></div>
+                  <div class="logo-simbolo"><img src="img/tiendas_industriales.png" alt="Tiendas Industriales"></div>
                </div>
 
                <h1 class="titulo">TRABAJA CON NOSOTROS</h1>
