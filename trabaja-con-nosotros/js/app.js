@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     });
 
-    // Loading en cupón descuento
+    // Loading
     $(window).load(function() {
         $("#loader").fadeOut("slow");
        });
