@@ -2,7 +2,7 @@
 
     ini_set("SMTP", "mail.tiendasindusriales.com");
     ini_set("smtp_port", "localhost");
-    ini_set('sendmail_from', 'info@tiendasindustriales.com');
+    ini_set('sendmail_from', 'gestioncalidad@discorreas.com');
 
     $nombre = strip_tags($_POST["name_surname"]);
     $email =  strip_tags($_POST["email"]);
