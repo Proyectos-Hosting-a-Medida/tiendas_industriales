@@ -38,6 +38,7 @@
     $cuerpo .= "Content-Transfer-Encoding: 8bit\r\n";
     $cuerpo .= "\r\n"; // linea vacia
     $cuerpo .= "Hoja de vida enviada por: " . $nombre . " \r\n";
+    $cuerpo .= "Celular: " . $phone . "\r\n";
     $cuerpo .= "Email: " . $email . "\r\n";
     $cuerpo .= "Documento: " . $cedula. "\r\n";
     $cuerpo .= "Localidad: " . $barrio . "\r\n";
