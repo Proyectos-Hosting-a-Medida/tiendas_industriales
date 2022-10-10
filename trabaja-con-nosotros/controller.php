@@ -16,6 +16,7 @@
     $typeFile = $_FILES['archivo']['type'];
     $tempFile = $_FILES["archivo"]["tmp_name"];
     
+    $redirect = "https://www.tiendasindustriales.com/trabaja-con-nosotros/index.php?name=$nombre";
 
     $fecha = time();
     $fechaFormato = date("j/n/Y",$fecha);
@@ -66,10 +67,12 @@
     $cuerpo .= "\r\n"; // linea vacia
     // Delimitador de mensaje
     $cuerpo .= "--=T=I=\r\n";
+    
 
     // Envio del correo
     if(mail($correoDestino, $asunto, $cuerpo, $cabecera)){
-        echo "Correo Enviado";
+        // echo "Correo Enviado";
+        echo header("Location: $redirect");
 
     } else {
         echo "Error al enviar";

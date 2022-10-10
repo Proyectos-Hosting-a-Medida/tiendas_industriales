@@ -42,7 +42,13 @@
                </div>
 
                <h1 class="titulo">TRABAJA CON NOSOTROS</h1>
-               <h3>Postulate a nuestras vacantes, enviando tu hoja de vida</h3>
+               <?php
+                  if(!isset($_GET["name"])) {
+                     echo "<h3>Postulate a nuestras vacantes, enviando tu hoja de vida</h3>";
+                  } else {
+                     echo "<div class='hv-send'> Gracias " . strtoupper($_GET["name"]) . " por enviar tu hoja de vida. </div>";
+                  }
+               ?>
                <fieldset>
                   <div class="row">
                      <input type="text" name="name_surname" id="user_name" data-name="Nombre" data-required="true" placeholder="NOMBRE Y APELLIDO*" required="required">
