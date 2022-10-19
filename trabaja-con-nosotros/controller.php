@@ -2,7 +2,7 @@
 
     ini_set("SMTP", "mail.tiendasindusriales.com");
     ini_set("smtp_port", "localhost");
-    ini_set('sendmail_from', 'gestioncalidad@discorreas.com');
+    ini_set('sendmail_from', 'info@tiendasindustriales.com');
 
     $nombre = strip_tags($_POST["name_surname"]);
     $email =  strip_tags($_POST["email"]);
@@ -21,7 +21,7 @@
     $fecha = time();
     $fechaFormato = date("j/n/Y",$fecha);
 
-    $correoDestino = "info@tiendasindustriales.com";
+    $correoDestino = "gestioncalidad@discorreas.com";
 
     //Asunto del correo
     $asunto = "Nueva hoja de vida enviada desde el sitio web";
