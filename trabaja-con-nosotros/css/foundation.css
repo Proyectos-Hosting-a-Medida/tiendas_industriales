@@ -1377,7 +1377,7 @@ p+.stat {
 /* Focus de los campos de texto */
 [type=text]:focus,[type=password]:focus,[type=date]:focus,[type=datetime]:focus,[type=datetime-local]:focus,[type=month]:focus,[type=week]:focus,[type=email]:focus,[type=tel]:focus,[type=time]:focus,[type=url]:focus,[type=color]:focus,[type=number]:focus,[type=search]:focus,textarea:focus {
  border:1px solid #8a8a8a;
- background:#2a69b0;
+ background:#f0f0f0;
  outline:0;
  box-shadow:0 0 5px #cacaca;
  transition:box-shadow .5s,border-color .25s ease-in-out

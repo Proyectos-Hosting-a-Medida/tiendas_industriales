@@ -62,7 +62,7 @@
                  
                   <!-- <input type="text" name="barrio" id="user_barrio" data-name="barrio" data-required="true" placeholder="BARRIO*" required="required"> -->
 
-                  <div class="row select1" style="margin-top: 3px!important; ">                  
+                  <div class="row select1" style="margin-top: 1px!important; ">                  
                      <select name="barrio" id="user_barrio" data-name="localidad" data-required="true" placeholder="" >
                       <option value="">SELECCIONE LOCALIDAD</option>
                       <option value="ANTONIO NARIÑO">ANTONIO NARIÑO</option>
@@ -98,7 +98,7 @@
                      $fecha = date_create(date('Y-m-d H:i:s'));
                      echo date_format($fecha,"Y-m-d H:i:s"); ?>" id="user_date" data-name="Fecha-Fin" data-required="false">
 
-                  <div class="row select1" style="margin-top: 3px!important; ">                  
+                  <div class="row select1" style="margin-top: 1px!important; ">                  
                   <select name="tipo_de_cargo" id="cargo" data-name="tipo de cargo" data-required="true" placeholder="" >
                       <option value="">CARGO AL CUAL SE POSTULA:</option>
                       <option value="ADMINISTRATIVO">ADMINISTRATIVO</option>
@@ -109,11 +109,20 @@
                   <span class="select1-fondo" id="cargo_text">CARGO AL CUAL SE POSTULA:</span>
                 </div>
 
-                <div class="row file-select" style="margin-top: 3px !important;">
+                
+                  <div class="row file-select" style="margin-top: 3px !important;">
                      <P>ADJUNTA TU HOJA DE VIDA (solo pdf, .doc y .docx)
-                     <input type="file" name="archivo" id="user_cv" data-name="hoja de vida" data-required="true" placeholder="HOJA DE VIDA" required="required"></P>
+                     <input type="file" name="archivo" id="user_cv"  data-name="hoja de vida" data-required="true" placeholder="HOJA DE VIDA" required="required"></P>
                      <span class="select1-fondo" id="user_cv"></span>
-               </div>
+                  </div>
+
+                  <!-- <div class="container-input">
+                     <input type="file" name="file-2" id="file-2" class="inputfile inputfile-2" data-multiple-caption="{count} archivos seleccionados" multiple />
+                        <label for="file-2">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="iborrainputfile" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg>
+                           <span class="iborrainputfile">Seleccionar archivo</span>
+                        </label>
+                  </div> -->
 
                   <div class="row">
                      <p>LOS CAMPOS MARCADOS CON * SON OBLIGATORIOS</p>
@@ -130,7 +139,7 @@
                   </div>
                   <div class="row enviar"><input type="submit" value="POSTULARME"></div>
                   <div class="row" style=" text-align: center;" id="copy_pc">
-                     <p>&copy; <?php echo date('Y')?>. TIendas Industriales <a href="terminosyCondiciones.pdf" target="_blank"> T&eacute;rminos y Condiciones</a></p>
+                     <p>&copy; <?php echo date('Y')?>. Tiendas Industriales <a href="terminosyCondiciones.pdf" target="_blank"> T&eacute;rminos y Condiciones</a></p>
                   </div>
                   <!-- Logo en Footer -->
                   <!-- <div class="foot-form">
